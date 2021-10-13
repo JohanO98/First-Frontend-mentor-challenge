@@ -20,8 +20,8 @@ p{
 }
 
 .header-image{
- border-top-left-radius: 50px;
- border-top-right-radius:50px;
+ border-top-left-radius: 20px;
+ border-top-right-radius:20px;
 
  
  
@@ -30,11 +30,22 @@ p{
 .buy-meny{
 
      
-    border-radius: 50px;
+    border-radius: 20px;
     background-color: hsl(225, 100%, 98%);
     text-align: center;
     padding: 0px;
     width: 450px;
-    margin: 200px auto;
+    margin:200px auto;
     
+}
+
+.payment-button{
+    border-radius: 20px;
+    background-color:hsl(245, 75%, 52%);
+    padding:5px 100px;
+    width: 200px;
+    margin: 10px auto;
+    font-weight: 700;
+    color:white;
+
 }
