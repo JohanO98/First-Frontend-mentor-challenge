@@ -1,31 +1,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
 
-
-
 html{
     font-size: 62.5%;
-    width: 100%;
-    height: 100%
 }
 
 body{
     margin: 0;
     background-image:url("../images/pattern-background-desktop.svg");
     /* import the background image */
-    background-size:cover;
     /* make the background image cover the entire page */
-    background-repeat:no-repeat;
+    background-repeat:repeat-x;
+    
     /* stops the background image to repeat downward */
     background-color: hsl(225, 100%, 94%);
     font-weight: 500;
     width:100%;
+    height:100%;
     font-family: 'Red Hat Display', sans-serif; 
+    
 }
+
 
 h1{
     font-size: 2.5rem;
     font-weight: 900;
+    margin-top: 4rem;
 }
 
 
@@ -34,15 +34,20 @@ p{
     color:gray;
 }
 
+.center-text{
+    text-align: center; padding: 0 5rem; margin: 4rem 0;
+}
+
 .buy-meny{
  
     border-radius: 2rem;
     background-color: white;
-    text-align: center;
     width: 45rem;
-    margin: 20rem auto;   
+    margin: 10rem auto 8.22rem auto;   
     padding-bottom: 3rem;
+    
 }
+
 
     .header-image{
         border-top-left-radius: 2rem;
@@ -56,27 +61,47 @@ p{
             width: 75%;
             margin: 0 auto;
             background-color:hsl(225, 100%, 98%);
-            border-radius: 2rem;
-            padding-top:2rem;
+            display: flex;
+            justify-content:space-around;
+            border-radius: 1rem;
             
             
         }   
             .music-icon{
-                margin-right:15rem;
-                
+                margin: 2rem 2rem;
                 
             }
 
                 .annual-plan{
-                    margin:0;
-                    
+                    margin: 2rem 2rem 2rem 0;
+                    line-break: 1rem;
 
                     
                 }
-
-                    .yearly-price{
+                    .annual-plan-p1{
+                        font-weight: 900; 
+                        color: black;
                         margin:0;
-                }
+                        margin-top: 0.2rem;
+
+                    }
+                    .annual-plan-p2{
+                        margin:0;
+                        margin-top: 0.4rem;
+
+                    }
+                    .change{
+                        margin: auto;
+                        color:hsl(245, 75%, 52%);
+                        text-decoration: underline;
+                        
+                    }
+                    
+                    .change:hover{
+                        cursor: pointer;
+                        color:hsl(245, 83%, 68%);
+                    }
+
 
                         .payment-button{
                             border-radius: 1rem;
@@ -87,14 +112,48 @@ p{
                             font-weight: 700;
                             color:white;
                             width: 75%;
+                            text-align: center;
+                            box-shadow:0 1rem 2rem gray;
                         }
+
+                        .payment-button:hover{
+                            background-color:hsl(245, 83%, 68%);
+                            cursor: pointer;
+
+                        }
+
+
+
                             .cancel-order{
-                                margin-top: 3rem;
+                                margin: 3rem 0 1rem 0;
+                                text-align:center;
+                                font-weight: 700;
+                                
 
                             }
-                
+                            .cancel-order:hover{
+                                cursor: pointer;
+                                
+
+                            }
 
 
 
- 
 
+
+
+                            @media screen and (max-width: 375px) {
+                                .buy-meny{
+                                    width: 80%;
+                                
+                                }
+                               .price{
+                                width: 85%;
+                               }
+
+                               .center-text{
+                                text-align: center; padding: 0 3rem; margin: 2rem 0;
+                            }
+                            }
+
+                        
