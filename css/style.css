@@ -144,16 +144,37 @@ p{
 
                             @media screen and (max-width: 375px) {
                                 .buy-meny{
-                                    width: 80%;
+                                    width: 90%;
+                                    margin: 5rem auto 4.1rem auto;
                                 
                                 }
                                .price{
                                 width: 85%;
                                }
 
-                               .center-text{
-                                text-align: center; padding: 0 3rem; margin: 2rem 0;
-                            }
-                            }
+                               .music-icon{
+                                margin: 2rem 1rem;
+                               }
 
-                        
+                               .annual-plan{
+                                   width:100%;
+                                   margin: 2rem 0;
+                               }
+
+                               .change{
+                                margin: 0;
+                                padding: 3rem 1rem 0 0;
+                               }
+
+                               .center-text{
+                                text-align: center; 
+                                padding: 0 3rem; 
+                                margin: 1rem 0;
+                                
+                                
+                                
+
+                            }
+                            
+
+                        }
